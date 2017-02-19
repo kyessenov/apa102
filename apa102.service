@@ -1,0 +1,10 @@
+[Unit]
+Description = apa102
+
+[Service]
+User = fa
+WorkingDirectory = /home/fa/apa102
+ExecStart = /usr/bin/node apa102.js
+
+[Install]
+WantedBy = multi-user.target                   
